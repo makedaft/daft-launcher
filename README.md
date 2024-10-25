@@ -1,5 +1,5 @@
-# Owyn launcher
-Owyn (_Only What You Need_) launcher is a minimal launcher for android.
+# Daft launcher
+Daft (_dumb as fuck tech_) launcher is a minimal launcher for android.
 
 
 ## What I need from my launcher...
@@ -17,5 +17,5 @@ Owyn (_Only What You Need_) launcher is a minimal launcher for android.
 
 ## Install
 Not available on play store and never will be.
-Grab an apk from the [releases section](https://github.com/phenax/owyn-launcher/releases) and install it.
+Grab an apk from the [releases section](https://github.com/makedaft/daft-launcher/releases) and install it.
 

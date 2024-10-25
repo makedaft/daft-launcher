@@ -80,9 +80,9 @@ android {
     buildToolsVersion rootProject.ext.buildToolsVersion
     compileSdk rootProject.ext.compileSdkVersion
 
-    namespace "dev.ediblemonad.owynlauncher"
+    namespace "dev.ediblemonad.daftlauncher"
     defaultConfig {
-        applicationId "dev.ediblemonad.owynlauncher"
+        applicationId "dev.ediblemonad.daftlauncher"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1
@@ -97,9 +97,9 @@ android {
         }
         release {
             storeFile file("release.keystore")
-            storePassword localProperties.getProperty('OWYN_STORE_PASS')
+            storePassword localProperties.getProperty('DAFT_STORE_PASS')
             keyAlias 'releasekey'
-            keyPassword localProperties.getProperty('OWYN_KEY_PASS')
+            keyPassword localProperties.getProperty('DAFT_KEY_PASS')
        }
     }
 
